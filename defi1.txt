@@ -134,9 +134,8 @@ Create a function that takes a number as an argument and returns the amount of d
 
 function countDigit(n) 
 { 
-if (n == 0) 
-return 0; 
-return 1 + (n / 10); 
+toStr(n)
+return n.length; 
 } 
 
 
